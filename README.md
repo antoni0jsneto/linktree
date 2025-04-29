@@ -1,54 +1,39 @@
-# React + TypeScript + Vite
+# Linktree Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um clone simples do Linktree, feito com HTML e Tailwind CSS, que permite reunir vários links pessoais ou profissionais em uma única página.
 
-Currently, two official plugins are available:
+## 🔗 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Acesse a página com seus links aqui: [Linktree Clone](https://antoni0jsneto.github.io/linktree)
 
-## Expanding the ESLint configuration
+## 📁 Estrutura do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- `index.html`: Página principal com seus links personalizados.
+- `style.css`: Estilos adicionais usando Tailwind CSS (via CDN).
+- Imagens e ícones podem ser adicionados ao projeto conforme necessário.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Como Usar
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/antoni0jsneto/linktree.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Abra o arquivo `index.html` no seu navegador.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎨 Personalização
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Altere o conteúdo de `index.html` para atualizar seus links, avatar e nome.
+- Você pode usar Tailwind para customizar ainda mais o estilo da página.
+
+## 🌐 Publicação no GitHub Pages
+
+1. Faça push do repositório para o GitHub.
+2. Vá até as configurações do repositório.
+3. Ative o **GitHub Pages** e selecione a branch `main` (ou `master`).
+4. Acesse seu site em `https://seu-usuario.github.io/linktree`.
+
+---
+
+Feito com ❤️ por [Antônio Neto](https://github.com/antoni0jsneto)
