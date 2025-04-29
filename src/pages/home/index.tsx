@@ -125,7 +125,7 @@ export function Home() {
     <div className="flex flex-col w-full py-4 items-center justify-center">
       <img
         className="w-40 h-40 rounded-full border-4 border-white object-cover mt-20"
-        src="./src/assets/gi3.jpg"
+        src="/assets/gi3.jpg"
         alt="Giselle Silva"
       />
       <h1 className="md:text-4xl  text-3xl font-bold text-white mt-3">
